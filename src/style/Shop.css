@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shop_parent1{
+    height: 140px;
+    /* background-color: rgb(219, 219, 219); */
+}
+.shop_parent1_text1{
+    margin-top: 30px;
+    height: 50px;
+    margin-left: 80px;
+    position: absolute;
+    border-bottom: 2px solid red;
+}
+.shop_parent1_text2{
+    margin-top: 80px;
+    margin-left: 80px;
+    position: absolute;
+}
+.shop_parent1_img{
+    width: 300px;
+    height: 158px;
+    margin-left: 850px;
+}
+.shop_parent2{
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    
+}
+.shop_parent2_text1{
+    font-size: 35px;
+    font-weight: 700; 
+    animation: zoom 1s linear infinite;  
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.shop_parent3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left:270px;
+}
+.shop_parent3_opt1{
+    height: 20px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.shop_parent4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 300px;
+}
+.shop_parent4_opt1{
+    height: 20px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.shop_parent5{
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:rgb(240, 239, 239);
+}
+.shop_parent5_cart{
+    height: 300px;
+    width: 215px;
+    border-radius: 10px;
+    margin: 55px;
+    background-color: white;
+}
+.shop_parent5_cart:hover{
+    box-shadow: 1px 1px 10px 1px black;
+}
+.shop_parent5_cart_img{
+    height: 200px;
+    width:200px;
+    border-radius: 10px;
+    margin: 8px;
+}
+.shop_parent5_cart_text{
+    margin-left: 10px;
+}
+.shop_parent5_cart_price{
+    margin-left: 10px;
+}
+.shop_parent5_cart_btn{
+    height: 30px;
+    width: 205px;
+    border-radius: 10px;
+    background-color: rgb(3, 112, 3);
+    margin-left: 3px;
+    border: none;
+}

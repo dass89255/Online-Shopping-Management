@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about_parent1{
+    height: 140px;
+    background-color: rgb(219, 219, 219);
+}
+.about_parent1_img1{
+    height: 130px;
+    position: absolute;
+}
+.about_parent1_text1{
+    margin-top: 45px;
+    margin-left: 150px;
+    position: absolute;
+    border-bottom: 2px solid red;
+}
+.about_parent1_img2{
+    height: 150px;
+    width: 300px;
+    margin-left: 930px;
+}
+.about_parent2{
+    position: absolute;
+}
+.about_parent2_text1{
+    margin-top: 30px;
+    margin-left: 90px;
+    z-index: 3;
+}
+.about_parent2_img1{
+    position: absolute;
+    opacity: 0.3;
+    z-index: 1;
+}
+.about_parent2_text2{
+    margin-left: 90px;
+    margin-top: 10px;
+    z-index: 3;
+}
+.about_parent2_text3{
+    margin-left: 90px;
+    width: 450px;
+    margin-top: 30px;
+    z-index: 3;
+}
+.about_parent2_text4{
+    margin-left: 90px;
+    width: 450px;
+    margin-top: 30px;
+    z-index: 3;
+}
+.about_parent2_text5{
+    margin-left: 90px;
+    width: 450px;
+    margin-top: 30px;
+    z-index: 3;
+}
+.about_parent3_img1{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 700px;
+}
+.about_parent4{
+    height: 130px;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.about_parent4_box1{
+    margin-left: 50px;
+}
+.about_parent4_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 40px;
+}
+.about_parent4_text1{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.about_parent4_text2{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.about_parent4_line1{
+    height: 70px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 370px;
+}
+.about_parent4_line2{
+    height: 70px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+.about_parent4_line3{
+    height: 70px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 30px;
+}

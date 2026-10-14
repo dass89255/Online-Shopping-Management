@@ -1,0 +1,112 @@
+.parent_nav{
+    height: 80px;
+    background-color: yellow;
+}
+.navbar_img1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+}
+.navbar_companyname{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.navbar_home{
+    margin-left: 300px;
+    height: 45px;
+    width: 51px;
+    margin-top: 13px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+    position: absolute;
+}
+.navbar_home:hover{
+    color: blue;
+}
+.navbar_home.active{
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.navbar_shop{
+    height: 45px;
+    width: 43px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 360px;
+}
+.navbar_shop:hover{
+    color: blue;
+}
+.navbar_shop.active{
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.navbar_aboutus{
+    height: 45px;
+    width: 78px;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+     position: absolute;
+    margin-top: 13px;
+    margin-left: 420px;
+}
+.navbar_aboutus:hover{
+    
+    color: blue;
+}
+.navbar_aboutus.active{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.navbar_contact{
+    height: 45px;
+    color: white;
+    width: 66px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+     position: absolute;
+    margin-top: 13px;
+    margin-left: 500px;
+}
+.navbar_contact:hover{
+    color: blue;
+}
+.navbar_contact.active{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.navbar_login{
+    height: 27px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 1200px;
+    text-decoration: none;
+}
+.navbar_login:hover{
+    box-shadow: 1px 1px 10px 1px black;
+}

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login_parent1{
+    position: absolute;
+}
+.login_parent1_img1{
+    height: 460px;
+    width: 650px;
+    position: absolute;
+}
+.login_parent1_text1{
+    position: absolute;
+    height: 50px;
+    width: 450px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.login_parent2{
+    height:420px ;
+    width: 530px;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #888888;
+}
+.login_parent2_img1{
+    height: 90px;
+    width: 90px;
+    margin-left: 220px;
+}
+.login_parent2_text1{
+    margin-left: 170px;
+    height: 35px;
+    width:198px;
+    border-bottom: 2px solid red;
+
+}
+.login_parent2_text2{
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.login_parent2_inputone{
+    margin-top: 5px;
+    height: 35px;
+    width: 420px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    margin-left: 50px;
+    border: 2px solid rgb(152, 150, 150);
+}
+.login_parent2_text3{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.login_parent2_inputtwo{
+    margin-top: 5px;
+    height: 35px;
+    width: 420px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    margin-left: 50px;
+    border: 2px solid rgb(152, 150, 150);
+
+}
+.login_parent2_link1{
+    margin-top: 10px;
+    margin-left: 360px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.login_parent2_button1{
+    height: 35px;
+    width: 420px;
+    color: white;
+    background-color:blue;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.login_parent2_text4{
+    margin-top: 20px;
+    margin-left: 220px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: red;
+
+}
+.login_parent2_link2{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: red;
+    text-decoration: none;
+}
+.login_parent3{
+    height: 150px;
+    background-color:rgb(13, 47, 68);;
+    margin-top: 456px;
+}
+.login_parent3_img1{
+    height: 40px;
+    width: 40px;
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+}
+.login_parent3_text1{
+    color: white;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 70px;
+
+}
+.login_parent3_text2{
+    color: white;
+    width: 150px;
+    font-size: 10px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 67px;
+}
+.login_parent3_text3{
+    color: white;
+    margin-top: 20px;
+    margin-left: 320px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.login_parent3_text4{
+    margin-top: 20px;
+    margin-left: 540px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.login_parent3_text5{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 770px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.login_parent3_text6{
+    color: white;
+    margin-top: 20px;
+    margin-left: 1030px;
+    position: absolute;
+}
+.login_parent3_imgtext7{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 1030px;
+    display: flex;
+    flex-direction: column;
+}
+.login_parent3_text8{
+    color: white;
+    margin-top: 38px;
+    margin-left: 1050px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.login_parent3_text9{
+    position: absolute;
+    margin-top: 116px;
+    margin-left: 550px;
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+}
+.login_parent4_line{
+    height: 2px;
+    width: 650px;
+    background-color: white;
+    margin-top: 27px;
+}
