@@ -1,0 +1,153 @@
+.parent_nav{
+    height: 80px;
+    /* background-color: #0d315d; */
+    background-color: white;
+}
+.navbar_img1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+}
+.navbar_companyname{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(4, 4, 87);;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px; 
+}
+.navbar_companyname2{
+    font-size: 40px;
+    font-weight: 700;
+    color: orangered;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 135px; 
+}
+.navbar_home{
+    margin-left: 260px;
+    height: 45px;
+    width: 51px;
+    margin-top: 13px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+    position: absolute;
+}
+
+.navbar_home.active{
+    border-bottom: 2px solid orangered;
+}
+.navbar_shop{
+    height: 45px;
+    width: 43px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 310px;
+}
+.navbar_shop.active{
+    border-bottom: 2px solid orangered;
+}
+.navbar_aboutus{
+    height: 45px;
+    width: 78px;
+    color: black;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+     position: absolute;
+    margin-top: 13px;
+    margin-left: 360px;
+}
+.navbar_aboutus.active{
+    border-bottom: 2px solid orangered;
+}
+.navbar_contact{
+    height: 45px;
+    color: black;
+    width: 66px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration:none;
+     position: absolute;
+    margin-top: 13px;
+    margin-left: 430px;
+}
+.navbar_contact.active{
+    border-bottom: 2px solid orangered;
+}
+.navbar_cart{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 480px;
+    position: absolute;
+}
+.navbar_login{
+    background-color:orangered;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    position: absolute;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1120px;
+    text-decoration: none;
+}
+.navbar_login:hover{
+    box-shadow: 1px 1px 10px 1px orangered;
+    text-decoration: none;
+}
+.logout_btn {
+    background-color:orangered;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    position: absolute;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 25px;
+    font-weight: 600;
+    cursor: pointer;
+     margin-left: 1220px;
+}
+
+.logout_btn:hover {
+     box-shadow: 1px 1px 10px 1px orangered;
+    text-decoration: none;
+}
+
+
+.navbar_myorder{
+    background-color:rgb(5, 5, 57);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    height: 40px;
+    margin-left: 1010px;
+    margin-top: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar_myorder:hover{
+     box-shadow: 1px 1px 10px 1px rgb(5, 5, 57);
+    text-decoration: none;
+}

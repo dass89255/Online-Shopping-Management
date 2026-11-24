@@ -1,0 +1,135 @@
+
+/* Main Container */
+.orders_container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+}
+
+/* My Orders Heading */
+.orders_myorders {
+    text-align: center;
+    color: #142d4e;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+/* No Orders Message */
+.orders_noorders {
+    text-align: center;
+    color: #666;
+    background-color: #f5f6f8;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Individual Order Card */
+.orders_card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-left: 5px solid #f28c28;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.orders_card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Order ID */
+.orders_card h2 {
+    color: #142d4e;
+    font-size: 22px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 12px;
+}
+
+/* Order Details */
+.orders_card > p {
+    color: #444444;
+    font-size: 15px;
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+/* Ordered Products Heading */
+.orders_card h3 {
+    color: #142d4e;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Individual Product */
+.order_product {
+    background-color: #f5f7fa;
+    border: 1px solid #e5e8ed;
+    border-radius: 7px;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.order_product p {
+    color: #444444;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Product Name */
+.order_product p:first-child {
+    color: #142d4e;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .orders_container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .orders_myorders {
+        font-size: 27px;
+    }
+
+    .orders_card {
+        padding: 18px;
+    }
+
+    .order_product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .orders_myorders {
+        font-size: 24px;
+    }
+
+    .orders_card h2 {
+        font-size: 19px;
+    }
+
+    .orders_card > p {
+        font-size: 14px;
+    }
+
+    .order_product p {
+        font-size: 13px;
+    }
+}

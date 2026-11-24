@@ -1,0 +1,135 @@
+
+/* ORDER SUCCESS MAIN CONTAINER */
+
+.order_success_container {
+    width: 90%;
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 45px 35px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+}
+
+/* SUCCESS HEADING */
+
+.OrderSuccess_placedsuccess {
+    color: #198754;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.OrderSuccess_thankyou {
+    color: #222;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+/* ORDER DETAILS */
+
+.OrderSuccess_orderid,
+.OrderSuccess_customer,
+.OrderSuccess_totalamount,
+.OrderSuccess_payment,
+.OrderSuccess_status {
+    font-size: 17px;
+    color: #555;
+    margin: 15px 0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+}
+
+/* TOTAL AMOUNT */
+
+.OrderSuccess_totalamount {
+    color: #111;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/* ORDER STATUS */
+
+.OrderSuccess_status {
+    color: #198754;
+    font-weight: bold;
+}
+
+/* VIEW MY ORDERS BUTTON */
+
+.OrderSuccess_viewbtn {
+    padding: 14px 25px;
+    margin: 25px 10px 10px;
+    background-color:white;
+    color: black;
+    border: none;
+      border: 1px solid #111;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.OrderSuccess_viewbtn:hover {
+    background-color:black;
+    color: white;
+}
+
+/* CONTINUE SHOPPING BUTTON */
+
+.continue_btn {
+    padding: 14px 25px;
+    margin: 25px 10px 10px;
+    background-color: white;
+    color: #111;
+    border: 1px solid #111;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.continue_btn:hover {
+    background-color: #111;
+    color: white;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 600px) {
+
+    .order_success_container {
+        width: 90%;
+        padding: 30px 15px;
+        margin: 30px auto;
+        box-sizing: border-box;
+    }
+
+    .OrderSuccess_placedsuccess {
+        font-size: 24px;
+    }
+
+    .OrderSuccess_thankyou {
+        font-size: 19px;
+    }
+
+    .OrderSuccess_orderid,
+    .OrderSuccess_customer,
+    .OrderSuccess_totalamount,
+    .OrderSuccess_payment,
+    .OrderSuccess_status {
+        font-size: 14px;
+    }
+
+    .OrderSuccess_viewbtn,
+    .continue_btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}

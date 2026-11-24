@@ -1,0 +1,155 @@
+
+.admin_customers {
+    min-height: 100vh;
+    padding: 30px;
+    background: #f5f7fb;
+    color: #14213d;
+}
+
+.customers_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.customers_header h1 {
+    margin-bottom: 6px;
+    color: #14213d;
+}
+
+.customers_header p {
+    color: #777;
+}
+
+.customers_count {
+    background: #14213d;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+}
+
+.customers_summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.customer_summary_card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #f28c28;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.customer_summary_card h3 {
+    color: #777;
+    font-size: 15px;
+}
+
+.customer_summary_card h2 {
+    color: #14213d;
+    font-size: 28px;
+}
+
+.customers_search {
+    width: 100%;
+    max-width: 450px;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.customers_search:focus {
+    border-color: #f28c28;
+}
+
+.customers_table_container {
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.customers_table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+}
+
+.customers_table th {
+    background: #14213d;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.customers_table td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.customers_table tr:hover {
+    background: #f9fafc;
+}
+
+.customer_active,
+.customer_inactive {
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.customer_active {
+    background: #d9f5e5;
+    color: #16834a;
+}
+
+.customer_inactive {
+    background: #ffe0e0;
+    color: #c62828;
+}
+
+.customers_loading {
+    padding: 40px;
+    text-align: center;
+    color: #14213d;
+}
+
+@media (max-width: 700px) {
+
+    .admin_customers {
+        padding: 15px;
+    }
+
+    .customers_header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .customers_summary {
+        grid-template-columns: 1fr;
+    }
+
+}
+.customer_delete_btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.customer_delete_btn:hover {
+    background-color: #b02a37;
+}
